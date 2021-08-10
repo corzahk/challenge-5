@@ -76,7 +76,7 @@ main{
     display: grid;
     margin-top: 45px;
     grid-template-rows: 109px 110px 115px;
-    grid-template-columns: 109px 110px 109px;
+    grid-template-columns: 109px 110px 115px;
     gap: 2%;
     height: 100%;
     align-content: center;
@@ -135,4 +135,13 @@ img{
 }
 footer p {
     text-align: center;
+}
+@media screen and (min-width:968px) {
+   .three,.four{
+       margin-top: 15px;
+   }
+   
+   .five, .six{
+       margin-top: 35px;
+   }
 }
