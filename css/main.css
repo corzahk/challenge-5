@@ -46,7 +46,7 @@ main{
     align-content: center;
     justify-content: center;
     width: 100%;
-    gap: 15px;
+    gap: 10px;
     margin-top: 10px;
     
 }
@@ -75,35 +75,64 @@ main{
 .container__gallery{
     display: grid;
     margin-top: 45px;
+    grid-template-rows: 109px 110px 115px;
+    grid-template-columns: 109px 110px 109px;
+    gap: 2%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    justify-items: center;
+   
 }
 .one{
-    width: 109px;
-    height: 109px;
+   
+    height: 100px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
 }
 .two{
-    width: 230px;
-    height: 110px;
+    
+    height: 10px;
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+    
 }
 .three{
-    width: 230px;
+   
     height: 198px;
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
 }
 .four{
-    width: 108px;
-    height: 230px;
+  
+    height: 210px;
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
 }
 .five{
     width: 109px;
     height: 109px;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
 }
 .six{
     width: 109px;
     height: 109px;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
 }
 .container__gallery img {
     border-radius: 12px;
 }
 img{
     width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
    
+}
+footer p {
+    text-align: center;
 }
