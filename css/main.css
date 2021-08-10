@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
 }
+
 main{
     height: 100%;
     margin: 10%;
@@ -143,5 +144,8 @@ footer p {
    
    .five, .six{
        margin-top: 35px;
+   }
+   main{
+       margin-top: 5%;
    }
 }
